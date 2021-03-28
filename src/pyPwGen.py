@@ -31,7 +31,7 @@ def         pyPwGen( title : str ) -> None :
 
     # 主画面のレイアウトにより window を生成する
     screen          = '主画面'
-    window          = S.Window( title = title, layout = layout( screen ), font = FONT, keep_on_top = True )
+    window          = S.Window( title = title, layout = layout( screen ), font = FONT, )
 
     # イベントループ
     while True :
